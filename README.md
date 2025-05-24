@@ -37,7 +37,7 @@
       "flight_time": 12.34,
       "command_name": "Falcons"
     },
-    "other_results": [         // до 9 лучших, без alice
+    "other_results": [         // до 10 лучших, без user1
       { "position": 1, "user_name": "bob",   "flight_time": 10.98, "command_name": "Eagles" },
       { "position": 2, ... }
     ]
@@ -66,7 +66,7 @@ python manage.py loaddata fixture_20_results.json
 ```bash
 curl -X POST http://127.0.0.1:8000/api/v1/auth/login/ \
      -H "Content-Type: application/json" \
-     -d '{"username":"alice","password":"secret123"}'
+     -d '{"username":"user1","password":"secret123"}'
 ```
 
 Ответ:
@@ -80,7 +80,7 @@ curl -X POST http://127.0.0.1:8000/api/v1/auth/login/ \
 ```bash
 curl -X POST http://127.0.0.1:8000/api/v1/results/results/get-competition-result/ \
      -H "Content-Type: application/json" \
-     -d '{"competition":"Summer Cup 2025","user_name":"alice","scenario":"qualification"}'
+     -d '{"competition":"Summer Cup 2025","user_name":"user1","scenario":"qualification"}'
 ```
 
 ### 3. Запрос с токеном ➜ 200
