@@ -22,7 +22,7 @@
   ```jsonc
   {
     "competition": "Summer Cup 2025", // name
-    "user_name":  "alice",            // username
+    "user_name":  "user1",            // username
     "scenario":   "qualification"     // FlightScenario
   }
   ```
@@ -33,7 +33,7 @@
   {
     "user_result": {           // место и результат запрашивающего
       "position": 5,
-      "user_name": "alice",
+      "user_name": "user1",
       "flight_time": 12.34,
       "command_name": "Falcons"
     },
