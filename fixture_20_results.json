@@ -1,0 +1,481 @@
+[
+  {
+    "model": "competitions_app.competition",
+    "pk": 1,
+    "fields": {
+      "name": "Summer Cup 2025",
+      "start_date": "2025-06-01",
+      "end_date": "2025-06-30"
+    }
+  },
+  {
+    "model": "competitions_app.room",
+    "pk": 1,
+    "fields": {
+      "name": "Main Arena"
+    }
+  },
+  {
+    "model": "competitions_app.team",
+    "pk": 1,
+    "fields": {
+      "name": "Falcons"
+    }
+  },
+  {
+    "model": "competitions_app.team",
+    "pk": 2,
+    "fields": {
+      "name": "Eagles"
+    }
+  },
+  {
+    "model": "competitions_app.team",
+    "pk": 3,
+    "fields": {
+      "name": "Hawks"
+    }
+  },
+  {
+    "model": "competitions_app.team",
+    "pk": 4,
+    "fields": {
+      "name": "Owls"
+    }
+  },
+  {
+    "model": "competitions_app.team",
+    "pk": 5,
+    "fields": {
+      "name": "Ravens"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "username": "user1",
+      "password": "pbkdf2_sha256$320000$placeholder$hash",
+      "is_active": true,
+      "is_staff": false,
+      "is_superuser": false,
+      "first_name": "User1",
+      "last_name": "Test",
+      "email": "user1@example.com"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "username": "user2",
+      "password": "pbkdf2_sha256$320000$placeholder$hash",
+      "is_active": true,
+      "is_staff": false,
+      "is_superuser": false,
+      "first_name": "User2",
+      "last_name": "Test",
+      "email": "user2@example.com"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+      "username": "user3",
+      "password": "pbkdf2_sha256$320000$placeholder$hash",
+      "is_active": true,
+      "is_staff": false,
+      "is_superuser": false,
+      "first_name": "User3",
+      "last_name": "Test",
+      "email": "user3@example.com"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+      "username": "user4",
+      "password": "pbkdf2_sha256$320000$placeholder$hash",
+      "is_active": true,
+      "is_staff": false,
+      "is_superuser": false,
+      "first_name": "User4",
+      "last_name": "Test",
+      "email": "user4@example.com"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 5,
+    "fields": {
+      "username": "user5",
+      "password": "pbkdf2_sha256$320000$placeholder$hash",
+      "is_active": true,
+      "is_staff": false,
+      "is_superuser": false,
+      "first_name": "User5",
+      "last_name": "Test",
+      "email": "user5@example.com"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 6,
+    "fields": {
+      "username": "user6",
+      "password": "pbkdf2_sha256$320000$placeholder$hash",
+      "is_active": true,
+      "is_staff": false,
+      "is_superuser": false,
+      "first_name": "User6",
+      "last_name": "Test",
+      "email": "user6@example.com"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 7,
+    "fields": {
+      "username": "user7",
+      "password": "pbkdf2_sha256$320000$placeholder$hash",
+      "is_active": true,
+      "is_staff": false,
+      "is_superuser": false,
+      "first_name": "User7",
+      "last_name": "Test",
+      "email": "user7@example.com"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 8,
+    "fields": {
+      "username": "user8",
+      "password": "pbkdf2_sha256$320000$placeholder$hash",
+      "is_active": true,
+      "is_staff": false,
+      "is_superuser": false,
+      "first_name": "User8",
+      "last_name": "Test",
+      "email": "user8@example.com"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 9,
+    "fields": {
+      "username": "user9",
+      "password": "pbkdf2_sha256$320000$placeholder$hash",
+      "is_active": true,
+      "is_staff": false,
+      "is_superuser": false,
+      "first_name": "User9",
+      "last_name": "Test",
+      "email": "user9@example.com"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 10,
+    "fields": {
+      "username": "user10",
+      "password": "pbkdf2_sha256$320000$placeholder$hash",
+      "is_active": true,
+      "is_staff": false,
+      "is_superuser": false,
+      "first_name": "User10",
+      "last_name": "Test",
+      "email": "user10@example.com"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 11,
+    "fields": {
+      "username": "user11",
+      "password": "pbkdf2_sha256$320000$placeholder$hash",
+      "is_active": true,
+      "is_staff": false,
+      "is_superuser": false,
+      "first_name": "User11",
+      "last_name": "Test",
+      "email": "user11@example.com"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 12,
+    "fields": {
+      "username": "user12",
+      "password": "pbkdf2_sha256$320000$placeholder$hash",
+      "is_active": true,
+      "is_staff": false,
+      "is_superuser": false,
+      "first_name": "User12",
+      "last_name": "Test",
+      "email": "user12@example.com"
+    }
+  },
+  {
+    "model": "competitions_app.competitionresult",
+    "pk": 1,
+    "fields": {
+      "competition": 1,
+      "room": 1,
+      "team": 1,
+      "user": 1,
+      "scenario": "qualification",
+      "flight_time": 9.96,
+      "false_start": false
+    }
+  },
+  {
+    "model": "competitions_app.competitionresult",
+    "pk": 2,
+    "fields": {
+      "competition": 1,
+      "room": 1,
+      "team": 2,
+      "user": 2,
+      "scenario": "qualification",
+      "flight_time": 10.45,
+      "false_start": false
+    }
+  },
+  {
+    "model": "competitions_app.competitionresult",
+    "pk": 3,
+    "fields": {
+      "competition": 1,
+      "room": 1,
+      "team": 3,
+      "user": 3,
+      "scenario": "qualification",
+      "flight_time": 11.06,
+      "false_start": false
+    }
+  },
+  {
+    "model": "competitions_app.competitionresult",
+    "pk": 4,
+    "fields": {
+      "competition": 1,
+      "room": 1,
+      "team": 4,
+      "user": 4,
+      "scenario": "qualification",
+      "flight_time": 11.44,
+      "false_start": false
+    }
+  },
+  {
+    "model": "competitions_app.competitionresult",
+    "pk": 5,
+    "fields": {
+      "competition": 1,
+      "room": 1,
+      "team": 5,
+      "user": 5,
+      "scenario": "qualification",
+      "flight_time": 12.04,
+      "false_start": false
+    }
+  },
+  {
+    "model": "competitions_app.competitionresult",
+    "pk": 6,
+    "fields": {
+      "competition": 1,
+      "room": 1,
+      "team": 1,
+      "user": 6,
+      "scenario": "qualification",
+      "flight_time": 12.55,
+      "false_start": false
+    }
+  },
+  {
+    "model": "competitions_app.competitionresult",
+    "pk": 7,
+    "fields": {
+      "competition": 1,
+      "room": 1,
+      "team": 2,
+      "user": 7,
+      "scenario": "qualification",
+      "flight_time": 12.98,
+      "false_start": false
+    }
+  },
+  {
+    "model": "competitions_app.competitionresult",
+    "pk": 8,
+    "fields": {
+      "competition": 1,
+      "room": 1,
+      "team": 3,
+      "user": 8,
+      "scenario": "qualification",
+      "flight_time": 13.49,
+      "false_start": false
+    }
+  },
+  {
+    "model": "competitions_app.competitionresult",
+    "pk": 9,
+    "fields": {
+      "competition": 1,
+      "room": 1,
+      "team": 4,
+      "user": 9,
+      "scenario": "qualification",
+      "flight_time": 13.95,
+      "false_start": false
+    }
+  },
+  {
+    "model": "competitions_app.competitionresult",
+    "pk": 10,
+    "fields": {
+      "competition": 1,
+      "room": 1,
+      "team": 5,
+      "user": 10,
+      "scenario": "qualification",
+      "flight_time": 14.59,
+      "false_start": false
+    }
+  },
+  {
+    "model": "competitions_app.competitionresult",
+    "pk": 11,
+    "fields": {
+      "competition": 1,
+      "room": 1,
+      "team": 1,
+      "user": 11,
+      "scenario": "final",
+      "flight_time": 15.04,
+      "false_start": false
+    }
+  },
+  {
+    "model": "competitions_app.competitionresult",
+    "pk": 12,
+    "fields": {
+      "competition": 1,
+      "room": 1,
+      "team": 2,
+      "user": 12,
+      "scenario": "final",
+      "flight_time": 15.57,
+      "false_start": false
+    }
+  },
+  {
+    "model": "competitions_app.competitionresult",
+    "pk": 13,
+    "fields": {
+      "competition": 1,
+      "room": 1,
+      "team": 3,
+      "user": 1,
+      "scenario": "final",
+      "flight_time": 15.95,
+      "false_start": false
+    }
+  },
+  {
+    "model": "competitions_app.competitionresult",
+    "pk": 14,
+    "fields": {
+      "competition": 1,
+      "room": 1,
+      "team": 4,
+      "user": 2,
+      "scenario": "final",
+      "flight_time": 16.48,
+      "false_start": false
+    }
+  },
+  {
+    "model": "competitions_app.competitionresult",
+    "pk": 15,
+    "fields": {
+      "competition": 1,
+      "room": 1,
+      "team": 5,
+      "user": 3,
+      "scenario": "final",
+      "flight_time": 17.01,
+      "false_start": false
+    }
+  },
+  {
+    "model": "competitions_app.competitionresult",
+    "pk": 16,
+    "fields": {
+      "competition": 1,
+      "room": 1,
+      "team": 1,
+      "user": 4,
+      "scenario": "final",
+      "flight_time": 17.59,
+      "false_start": false
+    }
+  },
+  {
+    "model": "competitions_app.competitionresult",
+    "pk": 17,
+    "fields": {
+      "competition": 1,
+      "room": 1,
+      "team": 2,
+      "user": 5,
+      "scenario": "final",
+      "flight_time": 18.03,
+      "false_start": false
+    }
+  },
+  {
+    "model": "competitions_app.competitionresult",
+    "pk": 18,
+    "fields": {
+      "competition": 1,
+      "room": 1,
+      "team": 3,
+      "user": 6,
+      "scenario": "final",
+      "flight_time": 18.44,
+      "false_start": false
+    }
+  },
+  {
+    "model": "competitions_app.competitionresult",
+    "pk": 19,
+    "fields": {
+      "competition": 1,
+      "room": 1,
+      "team": 4,
+      "user": 7,
+      "scenario": "final",
+      "flight_time": 18.98,
+      "false_start": false
+    }
+  },
+  {
+    "model": "competitions_app.competitionresult",
+    "pk": 20,
+    "fields": {
+      "competition": 1,
+      "room": 1,
+      "team": 5,
+      "user": 8,
+      "scenario": "final",
+      "flight_time": 19.58,
+      "false_start": false
+    }
+  }
+]

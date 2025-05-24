@@ -1,0 +1,87 @@
+# Настройки админ-панели Jazzmin
+
+JAZZMIN_UI_TWEAKS = {
+    "navbar_small_text": True,
+    "footer_small_text": True,
+    "body_small_text": True,
+    "brand_small_text": False,
+    "accent": "accent-primary",
+    "navbar": "navbar-white navbar-light",
+    "no_navbar_border": True,
+    "navbar_fixed": True,
+    "layout_boxed": False,
+    "footer_fixed": False,
+    "sidebar_fixed": True,
+    "sidebar_nav_small_text": True,
+    "sidebar_disable_expand": True,
+    "sidebar_nav_child_indent": False,
+    "sidebar_nav_compact_style": True,
+    "sidebar_nav_legacy_style": False,
+    "sidebar_nav_flat_style": True,
+    "theme": "default",
+    "dark_mode_theme": None,
+    "button_classes": {
+        "primary": "btn-outline-primary",
+        "secondary": "btn-outline-secondary",
+        "info": "btn-info",
+        "warning": "btn-warning",
+        "danger": "btn-danger",
+        "success": "btn-success",
+    },
+    "actions_sticky_top": False,
+}
+
+JAZZMIN_SETTINGS = {
+    "site_title": "Ninsar Admin",
+    "site_header": "Ninsar Admin",
+    "site_brand": "Ninsar Admin",
+    
+    "welcome_sign": "Добро пожаловать в Ninsar",
+    "copyright": "Ninsar",
+    "topmenu_links": [
+        {
+            "name": "Ninsar Website",
+            "url": "https://xn--80adhqgqmpk.xn--p1ai/",
+            "icon": "fas fa-globe",
+            "new_window": True,
+        },
+    ],
+    "icons": {
+        "auth": "fas fa-users-cog",         
+        "auth.user": "fas fa-user",         
+        "auth.group": "fas fa-people-roof", 
+        "users.User": "fas fa-users",       
+        "competitions_app.CompetitionResult": "fas fa-square-poll-vertical", 
+        "competitions_app.Room": "fas fa-person-booth", 
+        "competitions_app.Team": "fas fa-users-viewfinder", 
+        "competitions_app.Competition": "fas fa-trophy", 
+    },
+    "order_with_respect_to": [
+        "company",
+        "company.AboutCompany",
+        "company.Market",
+        
+        "services",
+        "services.CallRequest",
+        
+        "marketplace",
+        "marketplace.ProductCategory",
+        "marketplace.ProductTag",
+        "marketplace.Product",
+        "marketplace.ProductPhoto",
+        "marketplace.ProductParameter",
+        
+        "products",
+        "products.MeasurementType",
+        "products.MeasurementUnit",
+    ],
+    "show_sidebar": True,
+    "navigation_expanded": True,
+    "hide_apps": [],
+    "hide_models": [],
+    "custom_css": None,
+    "custom_js": None,
+    "use_google_fonts_cdn": True,
+    "show_ui_builder": False,
+    "changeform_format": "horizontal_tabs",
+}
