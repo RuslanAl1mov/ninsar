@@ -66,7 +66,7 @@ python manage.py loaddata fixture_20_results.json
 ```bash
 curl -X POST http://127.0.0.1:8000/api/v1/auth/login/ \
      -H "Content-Type: application/json" \
-     -d '{"username":"user1","password":"secret123"}'
+     -d '{"username":"admin","password":"1234"}'
 ```
 
 Ответ:
