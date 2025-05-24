@@ -50,10 +50,10 @@
 python -m venv venv && source venv/bin/activate
 pip install -r requirements.txt  # Django, djangorestframework, simplejwt
 python manage.py migrate
-python manage.py createsuperuser   # admin интерфейс
+python manage.py createsuperuser   # admin уже создан login: admin, psw: 1234
 ```
 
-### (Опционально) Загрузить демо‑данные
+### (Опционально) Загрузить демо‑данные (Уже загружены)
 
 ```bash
 python manage.py loaddata fixture_20_results.json
